@@ -1,0 +1,93 @@
+/* about.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-hero-section {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.about-hero-section p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.about-text {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding: 0;
+    color: #444;
+}
+
+.about-text li {
+    padding: 5px 0;
+}
+
+.about-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.about-image {
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+}
+
+.about-footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.about-footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-footer p {
+    font-size: 1.2rem;
+}
